@@ -40,6 +40,7 @@ tasks.named('bootJar') {
 
 tasks.named('jar') {
     enabled = true
+    archiveClassifier = ''
 }
 
 // JitPack이 빌드할 때 참조하는 설정
