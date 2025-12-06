@@ -1,4 +1,4 @@
-package com.common.utils.s3;
+package com.common.s3;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
