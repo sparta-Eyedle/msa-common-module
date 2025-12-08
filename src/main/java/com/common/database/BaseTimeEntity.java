@@ -12,6 +12,7 @@ import lombok.Getter;
 
 @MappedSuperclass
 @Getter
+@QuerySupertype
 public abstract class BaseTimeEntity extends BaseRootEntity {
 
 	@CreatedDate
